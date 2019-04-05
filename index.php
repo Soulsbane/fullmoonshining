@@ -19,7 +19,7 @@ function isNight()
 	return true;
 }
 
-if (isNight()) {// Night
+/*if (isNight()) {// Night
 	if (isRaining()) {
 		header('Location: http://fullmoonshining.com/rain');
 	} else {
@@ -31,8 +31,9 @@ if (isNight()) {// Night
 	} else {
 		header('Location: http://fullmoonshining.com/natsu');
 	}
-}
-
+}*/
+?>
+<h1>Hello World</h1>
+<?php
 require_once("pages/footer.php");
 ?>
-
