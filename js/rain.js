@@ -21,7 +21,7 @@ particlesJS("rain",
 					"nb_sides": 5
 				},
 				"image": {
-					"src": "images/rain.png",
+					"src": "assets/images/rain.png",
 					"width": 28,
 					"height": 39
 				}

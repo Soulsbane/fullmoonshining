@@ -19,21 +19,19 @@ function isNight()
 	return true;
 }
 
-/*if (isNight()) {// Night
+if (isNight()) {// Night
 	if (isRaining()) {
-		header('Location: http://fullmoonshining.com/rain');
+		require_once("pages/rain.php");
 	} else {
-		header('Location: http://fullmoonshining.com/higurashi');
+		require_once("pages/fireflies.php");
 	}
 } else { // Day
 	if (isRaining()) {
-		header('Location: http://fullmoonshining.com/rain/index-day.html');
+		require_once("pages/rain.php");
 	} else {
-		header('Location: http://fullmoonshining.com/natsu');
+		require_once("pages/summer.php");
 	}
-}*/
-?>
-<h1>Hello World</h1>
-<?php
+}
+
 require_once("pages/footer.php");
 ?>
