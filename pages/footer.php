@@ -1,3 +1,3 @@
-<?php
-echo ("</body></html>");
-?>
+</body>
+
+</html>
