@@ -28,7 +28,7 @@ if (isNight()) {// Night
 } else { // Day
 	//FIXME: Still need to handle daytime rain.
 	if (isRaining()) {
-		require_once("pages/rain.php");
+		require_once("pages/rain.day.php");
 	} else {
 		require_once("pages/summer.php");
 	}
