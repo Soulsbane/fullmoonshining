@@ -3,7 +3,7 @@ require_once("pages/header.php");
 
 function isRaining()
 {
-	if (mt_rand(0, 24) > 3) {
+	if (mt_rand(0, 24) > 6) {
 		return false;
 	}
 
