@@ -26,7 +26,6 @@ if (isNight()) {// Night
 		require_once("pages/fireflies.php");
 	}
 } else { // Day
-	//FIXME: Still need to handle daytime rain.
 	if (isRaining()) {
 		require_once("pages/rain.day.php");
 	} else {
